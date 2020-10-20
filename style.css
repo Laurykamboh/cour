@@ -1,0 +1,77 @@
+*,*::after,*::before
+{
+    box-sizing: content-box;
+}
+html,body{
+    
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.calculatrice{
+    border: 1px solid purple;
+    width: 100%;
+    height: calc( 100% - 328px );
+
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+
+}
+ .calculatrice .ecran{
+     
+     width: 100%;
+     height: calc( 100% - 360px);
+
+ }
+ .calculatrice .buttons{
+     height:  328;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+
+ }
+  .calculatrice .buttons .function{
+      
+   width: 100%;
+   height: 40px;
+   display: flex;
+  }
+  .calculatrice .buttons .pav_num{
+    
+    width: 100%;
+    height: 288px;
+    display: flex;
+    flex-direction: row;
+  }
+  .calculatrice .buttons .pav_num .number{
+      
+
+    width: 216px;
+    height: 100%;
+    display: block;
+    float: left;
+
+  }
+  .calculatrice .buttons .pav_num .sign{
+    
+    width: 72px;
+    height: 188px;
+    display: block; 
+  }
+  .button{
+      margin: 16px;              
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #484848;
+     margin: 16px;
+     float: left; 
+    display: flex;  
+  }
+
+
+
